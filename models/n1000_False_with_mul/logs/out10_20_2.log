@@ -1,0 +1,155 @@
+Getting data for 2025-03-03 00:00:00
+Getting data for 2025-03-04 00:00:00
+Getting data for 2025-03-05 00:00:00
+Getting data for 2025-03-06 00:00:00
+Getting data for 2025-03-07 00:00:00
+Getting data for 2025-03-08 00:00:00
+Getting data for 2025-03-09 00:00:00
+Getting data for 2025-03-10 00:00:00
+Getting data for 2025-03-11 00:00:00
+Getting data for 2025-03-12 00:00:00
+Getting data for 2025-03-13 00:00:00
+Getting data for 2025-03-14 00:00:00
+Getting data for 2025-03-15 00:00:00
+Getting data for 2025-03-16 00:00:00
+Getting data for 2025-03-17 00:00:00
+Getting data for 2025-03-18 00:00:00
+Getting data for 2025-03-19 00:00:00
+Getting data for 2025-03-20 00:00:00
+Getting data for 2025-03-21 00:00:00
+Getting data for 2025-03-22 00:00:00
+Getting data for 2025-03-23 00:00:00
+Getting data for 2025-03-24 00:00:00
+Getting data for 2025-03-25 00:00:00
+Getting data for 2025-03-26 00:00:00
+Getting data for 2025-03-27 00:00:00
+Getting data for 2025-03-28 00:00:00
+Getting data for 2025-03-29 00:00:00
+Getting data for 2025-03-30 00:00:00
+Getting data for 2025-03-31 00:00:00
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+252
+Starting for w40_False with mul=10
+40: 54m20sec done
+40: 54m30sec done
+40: 54m40sec done
+40: 54m50sec done
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.298493 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 60530
+[LightGBM] [Info] Number of data points in the train set: 2444400, number of used features: 247
+[LightGBM] [Info] Start training from score 71.889999
+Training until validation scores don't improve for 100 rounds
+[10]	train's l1: 61.466	test's l1: 61.4148
+[20]	train's l1: 39.9688	test's l1: 39.9799
+[30]	train's l1: 26.4878	test's l1: 26.5534
+[40]	train's l1: 18.8298	test's l1: 19.1274
+[50]	train's l1: 11.3079	test's l1: 11.4306
+[60]	train's l1: 7.85111	test's l1: 8.11684
+[70]	train's l1: 6.73587	test's l1: 7.10597
+[80]	train's l1: 5.89503	test's l1: 6.33319
+[90]	train's l1: 4.48548	test's l1: 5.28397
+[100]	train's l1: 3.5361	test's l1: 4.25479
+[110]	train's l1: 3.48224	test's l1: 4.20584
+[120]	train's l1: 3.41818	test's l1: 4.15922
+[130]	train's l1: 3.12836	test's l1: 3.9614
+[140]	train's l1: 3.07161	test's l1: 3.91236
+[150]	train's l1: 3.06744	test's l1: 3.91027
+[160]	train's l1: 3.06538	test's l1: 3.9086
+[170]	train's l1: 3.06113	test's l1: 3.90974
+[180]	train's l1: 3.0566	test's l1: 3.90548
+[190]	train's l1: 3.04729	test's l1: 3.89436
+[200]	train's l1: 2.91909	test's l1: 3.75235
+[210]	train's l1: 2.91702	test's l1: 3.75467
+[220]	train's l1: 2.91593	test's l1: 3.75405
+[230]	train's l1: 2.91446	test's l1: 3.7538
+[240]	train's l1: 2.91042	test's l1: 3.74973
+[250]	train's l1: 2.90644	test's l1: 3.74967
+[260]	train's l1: 2.88104	test's l1: 3.74173
+[270]	train's l1: 2.86364	test's l1: 3.70547
+[280]	train's l1: 2.83366	test's l1: 3.68496
+[290]	train's l1: 2.82914	test's l1: 3.67632
+[300]	train's l1: 2.82767	test's l1: 3.67562
+[310]	train's l1: 2.81184	test's l1: 3.64311
+[320]	train's l1: 2.81038	test's l1: 3.6421
+[330]	train's l1: 2.80817	test's l1: 3.6411
+[340]	train's l1: 2.80598	test's l1: 3.64054
+[350]	train's l1: 2.77866	test's l1: 3.619
+[360]	train's l1: 2.77363	test's l1: 3.62123
+[370]	train's l1: 2.77329	test's l1: 3.62131
+[380]	train's l1: 2.76966	test's l1: 3.6175
+[390]	train's l1: 2.72274	test's l1: 3.57541
+[400]	train's l1: 2.71224	test's l1: 3.56655
+[410]	train's l1: 2.7067	test's l1: 3.56212
+[420]	train's l1: 2.70353	test's l1: 3.5558
+[430]	train's l1: 2.6844	test's l1: 3.52276
+[440]	train's l1: 2.63067	test's l1: 3.48438
+[450]	train's l1: 2.62674	test's l1: 3.47641
+[460]	train's l1: 2.62248	test's l1: 3.47596
+[470]	train's l1: 2.60063	test's l1: 3.45307
+[480]	train's l1: 2.57812	test's l1: 3.43573
+[490]	train's l1: 2.54625	test's l1: 3.38179
+[500]	train's l1: 2.51372	test's l1: 3.33369
+[510]	train's l1: 2.50977	test's l1: 3.33187
+[520]	train's l1: 2.49301	test's l1: 3.32384
+[530]	train's l1: 2.48952	test's l1: 3.32251
+[540]	train's l1: 2.48334	test's l1: 3.32014
+[550]	train's l1: 2.46351	test's l1: 3.31663
+[560]	train's l1: 2.46115	test's l1: 3.316
+[570]	train's l1: 2.45906	test's l1: 3.31766
+[580]	train's l1: 2.45797	test's l1: 3.31953
+[590]	train's l1: 2.45417	test's l1: 3.31207
+[600]	train's l1: 2.43084	test's l1: 3.29331
+[610]	train's l1: 2.42938	test's l1: 3.29238
+[620]	train's l1: 2.42507	test's l1: 3.28574
+[630]	train's l1: 2.42338	test's l1: 3.28542
+[640]	train's l1: 2.42015	test's l1: 3.28038
+[650]	train's l1: 2.41473	test's l1: 3.27916
+[660]	train's l1: 2.40988	test's l1: 3.27717
+[670]	train's l1: 2.40786	test's l1: 3.2766
+[680]	train's l1: 2.3885	test's l1: 3.27066
+[690]	train's l1: 2.3869	test's l1: 3.2702
+[700]	train's l1: 2.37701	test's l1: 3.26366
+[710]	train's l1: 2.3156	test's l1: 3.21045
+[720]	train's l1: 2.28661	test's l1: 3.17668
+[730]	train's l1: 2.28522	test's l1: 3.17704
+[740]	train's l1: 2.28472	test's l1: 3.17663
+[750]	train's l1: 2.27415	test's l1: 3.16535
+[760]	train's l1: 2.26907	test's l1: 3.1618
+[770]	train's l1: 2.26638	test's l1: 3.15938
+[780]	train's l1: 2.26475	test's l1: 3.15891
+[790]	train's l1: 2.26088	test's l1: 3.15797
+[800]	train's l1: 2.25776	test's l1: 3.15653
+[810]	train's l1: 2.25551	test's l1: 3.15663
+[820]	train's l1: 2.22843	test's l1: 3.12996
+[830]	train's l1: 2.21989	test's l1: 3.12728
+[840]	train's l1: 2.21892	test's l1: 3.12696
+[850]	train's l1: 2.21684	test's l1: 3.12593
+[860]	train's l1: 2.2151	test's l1: 3.12503
+[870]	train's l1: 2.21355	test's l1: 3.12464
+[880]	train's l1: 2.21137	test's l1: 3.12463
+[890]	train's l1: 2.20647	test's l1: 3.12219
+[900]	train's l1: 2.20374	test's l1: 3.12155
+[910]	train's l1: 2.20295	test's l1: 3.12167
+[920]	train's l1: 2.18324	test's l1: 3.10729
+[930]	train's l1: 2.18265	test's l1: 3.10722
+[940]	train's l1: 2.1777	test's l1: 3.10513
+[950]	train's l1: 2.17454	test's l1: 3.10525
+[960]	train's l1: 2.14056	test's l1: 3.08857
+[970]	train's l1: 2.13983	test's l1: 3.08789
+[980]	train's l1: 2.13568	test's l1: 3.08487
+[990]	train's l1: 2.13232	test's l1: 3.08601
+[1000]	train's l1: 2.13052	test's l1: 3.08485
+Did not meet early stopping. Best iteration is:
+[982]	train's l1: 2.13563	test's l1: 3.0848
+Starting for w20_False with mul=10
+20: 54m40sec done
+20: 54m50sec done
