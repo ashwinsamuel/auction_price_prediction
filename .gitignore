@@ -1,0 +1,16 @@
+202503_imbalance.tar
+.DS_Store
+.ipynb_checkpoints/
+202503_imbalance/
+models/.DS_Store
+models/n1000_False_with_mul/.DS_Store
+results/.DS_Store
+results/n1000_False_with_mul/.DS_Store
+models/n10000_250feats_False/
+models/n10000_250feats_True/
+models/n1000_False_with_mul_clean/
+models/n1000_False_with_mul_clean_wo_nan_prices/
+models/n1000_classification_with_mul/
+models/n500_250feats/
+old_model.py
+saved_features/
