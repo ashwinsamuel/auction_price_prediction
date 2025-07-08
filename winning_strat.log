@@ -1,0 +1,198 @@
+Getting data for 2025-03-03
+Getting data for 2025-03-04
+Getting data for 2025-03-05
+Getting data for 2025-03-06
+Getting data for 2025-03-07
+Getting data for 2025-03-08
+Getting data for 2025-03-09
+Getting data for 2025-03-10
+Getting data for 2025-03-11
+Getting data for 2025-03-12
+Getting data for 2025-03-13
+Getting data for 2025-03-14
+Getting data for 2025-03-15
+Getting data for 2025-03-16
+Getting data for 2025-03-17
+Getting data for 2025-03-18
+Getting data for 2025-03-19
+Getting data for 2025-03-20
+Getting data for 2025-03-21
+Getting data for 2025-03-22
+Getting data for 2025-03-23
+Getting data for 2025-03-24
+Getting data for 2025-03-25
+Getting data for 2025-03-26
+Getting data for 2025-03-27
+Getting data for 2025-03-28
+Getting data for 2025-03-29
+Getting data for 2025-03-30
+Getting data for 2025-03-31
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+1 - Basic features done
+2 - Ratio features done
+3 - Imbalance features done
+4 - Rolling mean and std features done
+5 - Diff features done
+6 - Prev ref_prices features done
+7 - Changes compared to prev imbalance features done
+8 - MACD features done
+We got total 252 Features
+0/10 hybrid done!
+10000/10 hybrid done!
+20000/10 hybrid done!
+30000/10 hybrid done!
+40000/10 hybrid done!
+50000/10 hybrid done!
+60000/10 hybrid done!
+70000/10 hybrid done!
+80000/10 hybrid done!
+90000/10 hybrid done!
+100000/10 hybrid done!
+110000/10 hybrid done!
+120000/10 hybrid done!
+130000/10 hybrid done!
+140000/10 hybrid done!
+150000/10 hybrid done!
+160000/10 hybrid done!
+170000/10 hybrid done!
+180000/10 hybrid done!
+190000/10 hybrid done!
+200000/10 hybrid done!
+210000/10 hybrid done!
+220000/10 hybrid done!
+230000/10 hybrid done!
+240000/10 hybrid done!
+250000/10 hybrid done!
+260000/10 hybrid done!
+270000/10 hybrid done!
+280000/10 hybrid done!
+290000/10 hybrid done!
+300000/10 hybrid done!
+310000/10 hybrid done!
+320000/10 hybrid done!
+330000/10 hybrid done!
+340000/10 hybrid done!
+350000/10 hybrid done!
+360000/10 hybrid done!
+370000/10 hybrid done!
+380000/10 hybrid done!
+390000/10 hybrid done!
+400000/10 hybrid done!
+410000/10 hybrid done!
+420000/10 hybrid done!
+430000/10 hybrid done!
+440000/10 hybrid done!
+450000/10 hybrid done!
+460000/10 hybrid done!
+470000/10 hybrid done!
+480000/10 hybrid done!
+490000/10 hybrid done!
+500000/10 hybrid done!
+510000/10 hybrid done!
+520000/10 hybrid done!
+530000/10 hybrid done!
+540000/10 hybrid done!
+550000/10 hybrid done!
+560000/10 hybrid done!
+570000/10 hybrid done!
+580000/10 hybrid done!
+590000/10 hybrid done!
+600000/10 hybrid done!
+610000/10 hybrid done!
+620000/10 hybrid done!
+630000/10 hybrid done!
+640000/10 hybrid done!
+650000/10 hybrid done!
+660000/10 hybrid done!
+670000/10 hybrid done!
+680000/10 hybrid done!
+690000/10 hybrid done!
+Final pnl is 13202.001899999548
+max = 10.800000000000182
+min = -19.18000000000029
+Traceback (most recent call last):
+  File "/Users/ashwinsamuel/Documents/Kaggle/closing_auction_prediction/backtest.py", line 431, in <module>
+    simulate_for_hybrid(backtest_features, best_multipliers, models)
+  File "/Users/ashwinsamuel/Documents/Kaggle/closing_auction_prediction/backtest.py", line 375, in simulate_for_hybrid
+    s.chdir(PATH_TO_SAVE_RESULTS)
+NameError: name 's' is not defined. Did you mean: 'os'?
