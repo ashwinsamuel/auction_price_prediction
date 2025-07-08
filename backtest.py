@@ -387,7 +387,6 @@ if __name__=="__main__":
     WINDOWS_MULTIPLIER = int(sys.argv[1])
     FREQ = int(sys.argv[2])
     print(f"Running for multiplier = {WINDOWS_MULTIPLIER}, freq = {FREQ}")
-    FREQ=100
 
     if CLASSIFICATION:
         os.chdir(CLASSIFICATION_MODEL_PATH)

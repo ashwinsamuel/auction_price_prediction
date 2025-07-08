@@ -414,7 +414,7 @@ if __name__=="__main__":
 
     os.chdir(PATH_TO_READ_SAVE_MODELS)
     pnl_per_w = {}
-    for width in [50,100,150] + list(range(20,301,20)):
+    for width in [50,100,150,250] + list(range(20,301,20)):
         model = lgb.Booster(model_file=f"model_w{width}_False_mul{WINDOWS_MULTIPLIER}.txt")
         target = get_target(compiled_df[['date', 'symbol', 'local_time', 'ref_price', 'cross']].copy(), width=width, use_last_w_seconds=USE_LAST_W_SECONDS)
     
