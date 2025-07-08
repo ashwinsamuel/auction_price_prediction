@@ -316,9 +316,8 @@ def generate_features(df, window_multiplier):
 def simulate_for_hybrid(backtest, best_multipliers, models):
     
     columns_to_remove = ['symbol', 'local_time', 'date', 'cross', 'final_cross', 'secs_to_close']
-    
-    pnls=[]
-    diffs=[]
+
+    amount, pnls, diffs = 0, [], []
     for i in range(len(backtest[1])):
         
         minute = backtest[1].iloc[i]['local_time'].minute
@@ -365,13 +364,16 @@ def simulate_for_hybrid(backtest, best_multipliers, models):
             pnls.append(current_price-cross_price)
             diffs.append(current_price-prediction)
     
+        amount+=current_price
+
         if i%10000==0:
             print(f'{i}/{len(backtest_features[1])} hybrid done!')
 
     print(f'Final pnl is {sum(pnls)}')
     print(f'max = {max(pnls)}')
     print(f'min = {min(pnls)}')
-    
+    print(f'Bps: {sum(pnls)*10000/amount}')
+
     os.chdir(PATH_TO_SAVE_RESULTS)
     np.save(f'pnls_hybrid_freq{FREQ}.npy', pnls)
     np.save(f'diffs_hybrid_freq{FREQ}.npy', diffs)
@@ -514,7 +516,7 @@ if __name__=="__main__":
     
     print(f'Basic pnl is {sum(basic_pnls)}')
     print(f'Final pnl is {sum(pnls)}')
-    print(f'Roi is {sum(pnls)*100/amount}')
+    print(f'Bps: {sum(pnls)*10000/amount}')
     print(f'max = {max(pnls)}')
     print(f'min = {min(pnls)}')
     pnls=np.array(pnls)
