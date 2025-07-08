@@ -366,7 +366,7 @@ def simulate_for_hybrid(backtest, best_multipliers, models):
             diffs.append(current_price-prediction)
     
         if i%10000==0:
-            print(f'{i}/{len(backtest_features)} hybrid done!')
+            print(f'{i}/{len(backtest_features[1])} hybrid done!')
 
     print(f'Final pnl is {sum(pnls)}')
     print(f'max = {max(pnls)}')
