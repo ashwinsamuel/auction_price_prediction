@@ -163,25 +163,25 @@ if __name__=='__main__':
         plot_pnl_across_thresholds(multiplier, difference_array, pnl_array, num_bins=10)
 
     
-        
-        
-            
-    
-    
-    
-    
-    
-            
-    
-    
-    
-    
-    # Enseble of best window per width -> need first plot 1 for accuracy. then normal pnl/accuracy of backtest
-    
-    
+    # PLOT 5 - Hybrid strategy Pnls across different frequencies
 
-    # max possible PNL possible Max=90.5k    
-    # os.chdir('/Users/ashwinsamuel/Documents/Kaggle/closing_auction_prediction/results/n1000_False_with_mul')
-    # pnls = np.load('pnls_mul6_freq50.npy')
-    # print(np.sum(pnls))
-    # print(np.sum(np.abs(pnls)))
+    hybrid_pnls = {}
+    for frequency in [20,50,60,100,150]:
+        pnls = np.load(f'pnls_hybrid_freq{frequency}.npy')
+        hybrid_pnls[frequency]=pnls.sum()
+    
+    x = list(hybrid_pnls.keys())
+    y = list(hybrid_pnls.values())
+    
+    plt.plot(x, y, marker='o')
+    for xi, yi in zip(x, y):
+        plt.text(xi, yi, f'{yi:.2f}', ha='center', va='bottom', fontsize=9)
+    
+    plt.plot(hybrid_pnls.keys(), hybrid_pnls.values())
+    plt.title('Hybrid strat pnl for different frequencies')
+    plt.xlabel('Frequency (in seconds)')
+    plt.ylabel('Pnl')
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
