@@ -426,19 +426,19 @@ if __name__=='__main__':
 
     compiled_df = clean_data(df=compiled_df)
 
-    compiled_df_clean = compiled_df.dropna(subset='ref_price')
+    compiled_df_clean = compiled_df.dropna(subset='ref_price').copy()
 
-    features = generate_features(compiled_df, WINDOW_MULITPLIER)
+    features = generate_features(compiled_df_clean, WINDOW_MULITPLIER)
 
-    os.chdir(PATH_TO_READ_SAVE_FEATURES)
-    features.index = pd.RangeIndex(len(features))
-    features.to_feather(f"features_clean_252_mul{WINDOW_MULITPLIER}.feather")
+    # os.chdir(PATH_TO_READ_SAVE_FEATURES)
+    # features.index = pd.RangeIndex(len(features))
+    # features.to_feather(f"features_clean_252_mul{WINDOW_MULITPLIER}.feather")
     # features = pd.read_feather(f"features_252_mul{WINDOW_MULITPLIER}.feather")
     # features = features.copy()
 
     gc.collect()
 
-    for width in range(300,280,-20):
+    for width in range(60,40,-20):
     
         print(f'Starting for width{width}_{USE_LAST_W_SECONDS} with multiplier={WINDOW_MULITPLIER}')
 
